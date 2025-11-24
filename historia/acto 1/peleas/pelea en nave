@@ -1,0 +1,57 @@
+en la nave aparecera un alien que intentara controlar a nuestros colegas
+mientras aparece un general salubri con dos subordinados
+
+batalla:
+
+aliens
+    1 alien (dependiendo de que eligan nuestros colegas vienen mas)
+    fue 4
+    des 3
+    res 5
+    carisma 3
+    int 5
+    per 4
+    fue vol 4
+    salud 14
+    iniciativa 7 + dado
+2 parasitos creciditos
+    fuerza 2
+    dex 4
+    res 3
+    cha 1
+    int 1 
+    per 3
+    salud 6
+    pelea 2
+    fue vol 2
+    iniciativa 4 + dado
+    discip:
+        presa, fuerza enfrentada, voluntad vs int
+        pierde controla un turno
+salubri
+    1 general cheto
+    fue 4
+    des 3
+    res 6
+    car 3
+    int 4
+    per 4
+    iniciativa 8 + dado
+    fue vol 6
+    salud 12
+    discip:
+        presencia intensificada
+            +1 dificultad por miedo
+        dominacion
+            voluntad vs inteligencia del objetivo 
+            si pierde controla por un turno
+    2 subordinados humanos
+        fue 3
+        des 3
+        res 4
+        car 2
+        int 3
+        per 3
+        iniciativa 4 + dado
+        fue vol 3
+        salud 6

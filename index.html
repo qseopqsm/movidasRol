@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<title>movidas</title>
+<html>
+
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/f/script"></script>
+</head>
+
+<body>
+    <h1>Editor de Imagen</h1>
+    <input type=" text" id="imageUrl" placeholder="URL de la imagen">
+    <button onclick="loadImage()">Cargar Imagen</button>
+    <canvas id="canvas" width="800" height="600" style="border:1px solid #000"></canvas>
+
+    <script>
+        const canvas = new fabric.Canvas('canvas');
+
+        async function loadImage() {
+            const url = document.getElementById('imageUrl').value;
+            const response = await fetch('/upload', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ imageUrl: url })
+            });
+            const data = await response.json();
+            fabric.Image.fromURL(data.imagePath, img => {
+                canvas.clear();
+                canvas.add(img);
+                canvas.renderAll();
+            });
+        }
+    </script>
+</body>
+
+</html>

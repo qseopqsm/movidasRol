@@ -1,0 +1,53 @@
+acolito:
++1 a conciencia
++1 a autocontrol
+-1 fuerza
+-1 destreza
+items: un cubo raro pa ti pa tus cosas (no perder)
+trasfondo: proteger cubo, amnesia parcial
+conducta: no hacer cosas malas
+
+esclavo
++1 pericias
++1 callejeo
++1 manipulacion
+-1 autocontrol
+trasfondo: amo cruel por ahi suelto, busqueda de libertad
+conducta: hacer cosas malas
+
+
+soldado
++1 fisicos
+-1 sociales
+conducta: la mision impuesta es lo primero
+trasfondo: alzanzar reconocimiento de superiores, encontrar cubo (mision principal)
+
+erudito:
++1 mentales
+-1 fisicos
+conducta: buscar mas poder
+trasfondo: alcanzar divinidad
+
+Heroe del pueblo:
++1 sociales
++2 armas
+-1 coraje si hijo muere
+
+conducta: hacer cosas buenas
+trasfondo: rescatar a su hijo, quien lo tiene le ha encargado matar a un vampiro
+
+desertor
++1 fuerza
++1 atletismo
++1 alerta
+
+conducta: busqueda de libertad
+trasfondo: le persiguen por desertor, seguramente ya hayan mandado a alguien a matarlo
+
+Presa del tormento
+
++2 fisicos
+-1 virtudes
+conducta: entrar en frenesi en algunos momentos
+trasfondo: amnesia, impulsos violentos
+
